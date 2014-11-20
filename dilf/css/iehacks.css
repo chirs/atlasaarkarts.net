@@ -1,0 +1,24 @@
+
+
+#nav li {
+     /*width: 115px;*/
+     }
+
+#nav li.lastitem {
+   /* Bar doesn't go far enough across... */
+     width: 205px;
+     }
+
+#nav li:hover ul {
+   margin-left: -164px;
+   }
+
+#front_page {
+   margin-top: 0px;
+   }
+
+#main {
+   margin-top: 90px;
+   }
+
+	   
