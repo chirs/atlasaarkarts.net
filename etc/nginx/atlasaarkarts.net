@@ -1,0 +1,21 @@
+
+
+
+server {
+            listen   80;
+            server_name  www.atlasaarkarts.net;
+            rewrite ^/(.*) http://atlasaarkarts.net/$1 permanent;
+           }
+
+
+server {
+
+            listen   80;
+            server_name atlasaarkarts.net;
+
+            location / {
+                        root   /home/chris/www/atlasaarkarts.net/src/atlas/;
+                        index  index.html;
+                        }
+
+}
